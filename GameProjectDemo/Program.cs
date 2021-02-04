@@ -16,7 +16,7 @@ namespace GameProjectDemo
             OrderManager orderManager = new OrderManager();
 
             orderManager.Order(new Gamer { FirstName = "Gizer", LastName = "Doğan" }, new Campain { CampainName = "Muhteşem Şubat İndirimi" },
-                new Game { GameName = "GTA V ", GamePrice = 300 });
+                new Game { GameName = "GTA ", GamePrice = 300 });
         }
     }
 }
